@@ -82,7 +82,6 @@ if __name__ == '__main__':
             print (False)
     for i in range(len(s)):
         if s[i].isalpha():
-            print (s[i])
             print (True)
             break
         else:
