@@ -1,33 +1,33 @@
-String Split and Join
+# String Split and Join
 
-In Python, a string can be split on a delimiter.
+# In Python, a string can be split on a delimiter.
 
-Example:
+# Example:
 
->>> a = "this is a string"
->>> a = a.split(" ") # a is converted to a list of strings. 
->>> print a
-['this', 'is', 'a', 'string']
-Joining a string is simple:
+# >>> a = "this is a string"
+# >>> a = a.split(" ") # a is converted to a list of strings. 
+# >>> print a
+# ['this', 'is', 'a', 'string']
+# Joining a string is simple:
 
->>> a = "-".join(a)
->>> print a
-this-is-a-string 
-Task 
-You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
+# >>> a = "-".join(a)
+# >>> print a
+# this-is-a-string 
+# Task 
+# You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
 
-Input Format 
-The first line contains a string consisting of space separated words.
+# Input Format 
+# The first line contains a string consisting of space separated words.
 
-Output Format 
-Print the formatted string as explained above.
+# Output Format 
+# Print the formatted string as explained above.
 
-Sample Input
+# Sample Input
 
-this is a string   
-Sample Output
+# this is a string   
+# Sample Output
 
-this-is-a-string
+# this-is-a-string
 #############################################################
 def split_and_join(line):
     line = line.split(" ")
