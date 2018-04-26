@@ -1,31 +1,31 @@
-What's Your Name?
+# What's Your Name?
 
-You are given the firstname and lastname of a person on two different lines. Your task is to read them and print the following:
+# You are given the firstname and lastname of a person on two different lines. Your task is to read them and print the following:
 
-Hello firstname lastname! You just delved into python.
+# Hello firstname lastname! You just delved into python.
 
-Input Format
+# Input Format
 
-The first line contains the first name, and the second line contains the last name.
+# The first line contains the first name, and the second line contains the last name.
 
-Constraints
+# Constraints
 
-The length of the first and last name ≤ .
+# The length of the first and last name ≤ .
 
-Output Format
+# Output Format
 
-Print the output as mentioned above.
+# Print the output as mentioned above.
 
-Sample Input 0
+# Sample Input 0
 
-Ross
-Taylor
-Sample Output 0
+# Ross
+# Taylor
+# Sample Output 0
 
-Hello Ross Taylor! You just delved into python.
-Explanation 0
+# Hello Ross Taylor! You just delved into python.
+# Explanation 0
 
-The input read by the program is stored as a string data type. A string is a collection of characters.
+# The input read by the program is stored as a string data type. A string is a collection of characters.
 #######################################################
 
 def print_full_name(a, b):
