@@ -50,9 +50,9 @@ def print_formatted(number):
     number = 1
  
     for i in range(1, end + 1):
-        nu = int(number)
-        oc = oct(number)[1:]
-        bi = bin(number)[2:]
+        # nu = int(number)
+        # oc = oct(number)[1:]
+        # bi = bin(number)[2:]
         
         print ("{0:d}{width}{0:o}{width}{0:x}{width}{0:b}".format(number, width=" " * bi_len))
         # print ("{0}{1}{2}{1}{3}{1}{4:>}".format(nu, width, oc, number, bi))
