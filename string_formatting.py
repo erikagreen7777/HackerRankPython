@@ -43,16 +43,15 @@
 
 ############################################################################
 
-def print_formatted(number):
-    end = number
+def print_formatted(n):
+    end = n
     width = len("{0:b}".format(end)) + 1
-    number = 1
+    n = 1
  
     for i in range(1, end + 1):
-        print ("{0:{1}d}{0:{1}o}{0:{1}x}{0:{1}b}".format(number, width))
-        number += 1
-    return (0)
-
+        print ("{0:{1}d}{0:{1}o}{0:{1}X}{0:{1}b}".format(n, width))
+        n += 1
+        
 if __name__ == '__main__':
 	n = int(raw_input())
 	print_formatted(n)        
