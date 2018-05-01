@@ -45,19 +45,13 @@
 
 def print_formatted(number):
     end = number
-    bi_len = int(len(bin(number)[2:]))
-    width = " " * bi_len
+    width = len("{0:b}".format(end)) + 1
     number = 1
  
     for i in range(1, end + 1):
-        # nu = int(number)
-        # oc = oct(number)[1:]
-        # bi = bin(number)[2:]
-        
-        print ("{0:d}{width}{0:o}{width}{0:x}{width}{0:b}".format(number, width=" " * bi_len))
-        # print ("{0}{1}{2}{1}{3}{1}{4:>}".format(nu, width, oc, number, bi))
-        # print ("%d{}%s{}%X{}%s" % (nu, oc, number, bi))
+        print ("{0:{1}d}{0:{1}o}{0:{1}x}{0:{1}b}".format(number, width))
         number += 1
+    return (0)
 
 if __name__ == '__main__':
 	n = int(raw_input())
