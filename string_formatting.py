@@ -48,9 +48,10 @@ def print_formatted(n):
     width = len("{0:b}".format(end)) + 1
     n = 1
  
-    for i in range(1, end + 1):
+    for _ in range(1, end + 1):
         print ("{0:{1}d}{0:{1}o}{0:{1}X}{0:{1}b}".format(n, width))
         n += 1
+    return (0)
         
 if __name__ == '__main__':
 	n = int(raw_input())
