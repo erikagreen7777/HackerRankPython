@@ -58,5 +58,7 @@ def print_formatted(number):
         # print ("{0}{1}{2}{1}{3}{1}{4:>}".format(nu, width, oc, number, bi))
         # print ("%d{}%s{}%X{}%s" % (nu, oc, number, bi))
         number += 1
-        
 
+if __name__ == '__main__':
+	n = int(raw_input())
+	print_formatted(n)        
